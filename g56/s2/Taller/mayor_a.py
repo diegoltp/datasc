@@ -1,6 +1,6 @@
 from sys import argv
 
-limite = argv[1]
+limite = int(argv[1])
 ventas = {
 "Enero": 15000,
 "Febrero": 22000,
@@ -15,6 +15,6 @@ ventas = {
 "Noviembre": 91000,
 "Diciembre": 21000,
 }
-llave = {k:v for (k, v) in ventas.items() if v > 40000}
+llave = {k:v for (k, v) in ventas.items() if v > limite}
 print(llave)
 
