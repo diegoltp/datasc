@@ -7,11 +7,9 @@ intentos = 0
 pswrd_hack = ""
 for i in range(len(pswrd)):
     for j in range(len(abcdario)):
-        if abcdario[j] != pswrd[i]:
-            intentos += 1
-        else:
+        intentos += 1
+        if abcdario[j] == pswrd[i]:
             pswrd_hack = pswrd_hack+abcdario[j]
-            intentos += 1
             break
 print(f"Su contraseña {pswrd_hack} fue vulnerada en {intentos} intentos")
 

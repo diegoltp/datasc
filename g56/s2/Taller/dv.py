@@ -11,6 +11,7 @@ while len(rut) > len(serie_dv):
         equilibrio = 0
     serie_dv.append(serie_dv[equilibrio])
     equilibrio+=1
+print(serie_dv)
 #-------------------------------------------
 suma=0
 for i in range(len(rut)):
