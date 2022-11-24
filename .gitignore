@@ -1,4 +1,5 @@
 *.pdf
+*.pyc
 g56/s1/c1/clase.py
 g56/s1/c2/clase.py
 
